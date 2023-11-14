@@ -1,0 +1,94 @@
+.ball {
+    width: 350px;
+    border-radius: 4px;
+  }
+  .spank {
+    color: red;
+  }
+  .spank:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  p {
+    font-family: roboto;
+  }
+  .game {
+    width: 350px;
+    margin-bottom: 0px;
+  }
+  .channel {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-size: small;
+  }
+  .views {
+    margin-top: 0px;
+    font-size: 12px;
+  }
+  .textfield {
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+  .dimension {
+    display: inline-block;
+    vertical-align: top;
+  }
+  .dimension1 {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  .location {
+    border: none;
+    display: block;
+    margin-bottom: 6px;
+    background-color: whitesmoke;
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+  .location::placeholder {
+    font-family: arial;
+    font-size: small;
+  }
+  .destination {
+    display: block;
+    margin-bottom: 7px;
+    border: none;
+    background-color: whitesmoke;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-bottom: 20px;
+  }
+  .req {
+    margin-right: 8px;
+    background-color: black;
+    color: white;
+    transition: background-color 0.15s;
+  }
+  .req:hover {
+    color: black;
+    background-color: whitesmoke;
+    cursor: pointer;
+  }
+  .req:active {
+    background-color: blueviolet;
+  }
+  .sched {
+    border: none;
+    background-color: whitesmoke;
+  }
+  .sched:hover {
+    color: white;
+    background-color: red;
+    cursor: pointer;
+  }
+  .sched:active {
+    color: blue;
+    background-color: brown;
+  }
+  .ride {
+    font-size: 20px;
+    font-family: arial;
+  }
+  .car {
+    width: 350px;
+  }
